@@ -24,40 +24,40 @@ namespace sms2
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblnom control.
+        /// lblNom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblnom;
+        protected global::System.Web.UI.WebControls.Label lblNom;
 
         /// <summary>
-        /// txtnom control.
+        /// txtNom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtnom;
+        protected global::System.Web.UI.WebControls.TextBox txtNom;
 
         /// <summary>
-        /// lblprenom control.
+        /// lblPrenom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblprenom;
+        protected global::System.Web.UI.WebControls.Label lblPrenom;
 
         /// <summary>
-        /// Textprenom control.
+        /// TextPrenom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textprenom;
+        protected global::System.Web.UI.WebControls.TextBox TextPrenom;
 
         /// <summary>
         /// email control.
@@ -69,67 +69,67 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label email;
 
         /// <summary>
-        /// Textemail control.
+        /// TextEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textemail;
+        protected global::System.Web.UI.WebControls.TextBox TextEmail;
 
         /// <summary>
-        /// date control.
+        /// lblDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label date;
+        protected global::System.Web.UI.WebControls.Label lblDate;
 
         /// <summary>
-        /// Textdate control.
+        /// TextDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textdate;
+        protected global::System.Web.UI.WebControls.TextBox TextDate;
 
         /// <summary>
-        /// discipline control.
+        /// lblDiscipline control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label discipline;
+        protected global::System.Web.UI.WebControls.Label lblDiscipline;
 
         /// <summary>
-        /// Textdiscipline control.
+        /// TextDiscipline control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textdiscipline;
+        protected global::System.Web.UI.WebControls.TextBox TextDiscipline;
 
         /// <summary>
-        /// adress control.
+        /// lblAdress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label adress;
+        protected global::System.Web.UI.WebControls.Label lblAdress;
 
         /// <summary>
-        /// Textadress control.
+        /// TextAdress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textadress;
+        protected global::System.Web.UI.WebControls.TextBox TextAdress;
 
         /// <summary>
         /// pays control.

@@ -27,17 +27,17 @@
         <div class="auto-style1">
             <p class="auto-style2">
             <br class="auto-style3" />
-            <asp:Label ID="lblnom" runat="server" Text="Nom"></asp:Label>
+            <asp:Label ID="lblNom" runat="server" Text="Nom"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="txtnom" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="txtNom" runat="server" ></asp:TextBox>
 
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-            <asp:Label ID="lblprenom" runat="server" Text="Prenom"></asp:Label>
+            <asp:Label ID="lblPrenom" runat="server" Text="Prenom"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="Textprenom" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="TextPrenom" runat="server" ></asp:TextBox>
 
             
             <br />
@@ -46,26 +46,26 @@
 
              <asp:Label ID="email" runat="server" Text="Email"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox  ID="Textemail" runat="server" ></asp:TextBox>
+            <asp:TextBox  ID="TextEmail" runat="server" ></asp:TextBox>
 
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-            <asp:Label ID="date" runat="server" Text="DDN"></asp:Label>
+            <asp:Label ID="lblDate" runat="server" Text="DDN"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="Textdate" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="TextDate" runat="server" ></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <br />
             <br />
             
-            <asp:Label ID="discipline" runat="server" Text="Discipline"></asp:Label>
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="Textdiscipline" runat="server" ></asp:TextBox>
+            <asp:Label ID="lblDiscipline" runat="server" Text="Discipline"></asp:Label>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextDiscipline" runat="server" ></asp:TextBox>
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="adress" runat="server" Text="Adress"></asp:Label>
+            <asp:Label ID="lblAdress" runat="server" Text="Adress"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="Textadress" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="TextAdress" runat="server" ></asp:TextBox>
 
              <br />
             <br />
@@ -106,6 +106,7 @@
             <br />
             <button type="button" class="btn btn-outline-success" style="margin-left:50px">Save </button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
             <button type="button" class="btn btn-outline-success">Update</button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button type="button" class="btn btn-outline-danger">Delete</button>
