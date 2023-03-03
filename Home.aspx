@@ -106,6 +106,7 @@
             <br />
             <button type="button" class="btn btn-outline-success" style="margin-left:50px">Save </button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
             <button type="button" class="btn btn-outline-success">Update</button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button type="button" class="btn btn-outline-danger">Delete</button>

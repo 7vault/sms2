@@ -10,7 +10,8 @@
     </head>
 <body>
     
-   <div class="container" style="border:2px solid silver;height:500px; margin:150px">
+   <div class="container" style="border:3px solid blue;height:500px; margin:150px ">
+
     <img src="images/student.png" alt="Alternate Text" class="user" />
        <h2>&nbsp;</h2>
        <h2>&nbsp;</h2>
@@ -30,10 +31,10 @@
            <br />
            <br />
 
-               <asp:Button ID="btnsubmit"  class="btn btn-success" runat="server" Text="Sign In" Height="37px" Width="218px" />
+               <asp:Button ID="btnsubmit"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="218px" />
                <br />
            <br />
-               <asp:Button ID="btnpassword"  class="btn btn-dark" runat="server" Text="Forgot Password" />
+               <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" />
 
             &nbsp;&nbsp;&nbsp;
 

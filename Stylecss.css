@@ -15,7 +15,10 @@
     height: 420px;
     padding: 80px 40px;
     box-sizing: border-box;
-    background: rgba(0,0,0,0.5)
+    background: rgba(0,0,0)
+}
+.container {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .user {
@@ -34,7 +37,7 @@ h2 {
     padding: 0;
     margin: 0;
     text-align: center;
-    color: rgb(239, 191, 14)
+    color: black
 }
 
 .lblemail, lblpassword {
