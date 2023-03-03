@@ -9,13 +9,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
     </head>
 <body>
-    
+    <div style="margin-left: 550px ;margin-top: 10px">
+    <img src="images/student.png" alt="Alternate Text" class="user" />
+    </div>
+
+    <div style="text-align:center ; margin-top:150px">
+        <h2>Log In Here</h2>
+    </div>
    <div class="container" style="border:3px solid blue;height:500px; margin:150px ">
 
-    <img src="images/student.png" alt="Alternate Text" class="user" />
-       <h2>&nbsp;</h2>
-       <h2>&nbsp;</h2>
-       <h2>Log In Here</h2>
+       
+       
        <form runat="server">
 
            <br />
