@@ -30,6 +30,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+}
+
+.bouton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .user {
@@ -37,7 +45,7 @@
     width: 100px;
     height: 100px;
     /*overflow: hidden;*/
-   /* top: calc(-100px/2);
+    /* top: calc(-100px/2);
     left: calc(50% -50%);*/
     /*position: absolute;*/
 }
