@@ -22,25 +22,32 @@
        
        <form runat="server">
 
-           <br />
-           <br />
+           <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+        </div>
 
-           <asp:TextBox ID="txtemail" runat="server" placeholder="Enter Email" Width="900px" Height="50px"></asp:TextBox>
+<%--           <asp:TextBox ID="txtemail" runat="server" placeholder="Enter Email" Width="900px" Height="50px"></asp:TextBox>--%>
 
-           <br />
-           <br />
-           <asp:TextBox ID="txtpassword" runat="server" placeholder="********" Width="900px" Height="50px"></asp:TextBox>
+         <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1"/>
+        </div>
+<%--           <asp:TextBox ID="txtpassword" runat="server" placeholder="********" Width="900px" Height="50px"></asp:TextBox>--%>
 
                <br />
            <br />
            <br />
 
+           <div style="align-content:center">
                <asp:Button ID="btnsubmit"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="218px" />
                <br />
            <br />
                <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" />
 
             &nbsp;&nbsp;&nbsp;
+           </div>
+               
 
             </form>
 
