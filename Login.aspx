@@ -7,31 +7,11 @@
     <title></title>
     <link href="Stylecss.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
-    <style type="text/css">
-        .auto-style2 {
-            position: absolute;
-            top: 50%;
-            left: -18%;
-            transform: translate(-50%,-50%);
-            width: 748px;
-            height: 420px;
-            padding: 80px 40px;
-            box-sizing: border-box;
-            margin-left: 604px;
-        }
-    </style>
-</head>
+    </head>
 <body>
-    <div >
-    <img src="images/autre.jpg" alt="Alternate Text" class="user" style="margin-top: 80px; margin-left: 550px"/>
-        </div>
-    <div style="margin-top: 120px; margin-left: 300px">
-        <h2>Log In Here</h2>
-    </div>
-
-   <div class="container" style="border: 2px solid silver;height:400px;width:950px; margin:150px">
-
-       
+   <div style="margin:200px">
+    <img src="images/autre.jpg" alt="Alternate Text" class="user" style="margin"/>
+       <h2>Log In Here</h2>
        <form runat="server">
 
 
