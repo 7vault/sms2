@@ -34,14 +34,12 @@
 
 .user {
     position: center;
-    margin-left: 150px;
-    margin-top: 150px;
     width: 100px;
     height: 100px;
-    overflow: hidden;
-    top: calc(-100px/2);
-    left: calc(50% -50%);
-    position: absolute;
+    /*overflow: hidden;*/
+   /* top: calc(-100px/2);
+    left: calc(50% -50%);*/
+    /*position: absolute;*/
 }
 
 
