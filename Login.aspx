@@ -40,10 +40,10 @@
            <br />
 
            <div style="align-content:center">
-               <asp:Button ID="btnsubmit"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="218px" />
+               <asp:Button ID="btnSignUp"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="218px" />
                <br />
            <br />
-               <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" />
+               <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" Height="37px" Width="218px" S />
 
             &nbsp;&nbsp;&nbsp;
            </div>
