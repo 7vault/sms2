@@ -17,21 +17,21 @@
     <div style="text-align:center ; margin-top:10px">
         <h2>Log In Here</h2>
     </div>
-   <div class="container"  style="border:3px solid blue;height:500px; margin:150px ">
+   <div class="container"  style="border:3px solid blue;height:400px; width:400px; margin:120px ">
 
        
        
        <form runat="server">
 
            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                <label for="lblEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"/>
         </div>
 
 <%--           <asp:TextBox ID="txtemail" runat="server" placeholder="Enter Email" Width="900px" Height="50px"></asp:TextBox>--%>
 
          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <label for="lblPassword" class="form-label">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1"/>
         </div>
 <%--           <asp:TextBox ID="txtpassword" runat="server" placeholder="********" Width="900px" Height="50px"></asp:TextBox>--%>
@@ -41,10 +41,10 @@
            <br />
 
            <div style="align-content:center">
-               <asp:Button ID="btnsubmit"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="218px" />
+               <asp:Button ID="btnSignUp"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="218px" />
                <br />
            <br />
-               <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" />
+               <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" Height="37px" Width="218px" S />
 
             &nbsp;&nbsp;&nbsp;
            </div>
