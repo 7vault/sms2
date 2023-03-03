@@ -16,7 +16,7 @@
     <div style="text-align:center ; margin-top:150px">
         <h2>Log In Here</h2>
     </div>
-   <div class="container"  style="border:3px solid blue;height:400px; width:400px; margin:120px ">
+   <div class="container"  style="border:3px solid blue;height:400px; width:400px; margin:120px  ;align-content:center">
 
        
        
