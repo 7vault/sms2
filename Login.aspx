@@ -22,31 +22,32 @@
     </style>
 </head>
 <body>
-   <div style="margin:200px">
-    <img src="images/autre.jpg" alt="Alternate Text" class="user" style="margin"/>
-       <h2>Log In Here</h2>
+    <div >
+    <img src="images/autre.jpg" alt="Alternate Text" class="user" style="margin-top: 80px; margin-left: 550px"/>
+        </div>
+    <div style="margin-top: 120px; margin-left: 300px">
+        <h2>Log In Here</h2>
+    </div>
+
+   <div class="container" style="border: 2px solid silver;height:400px;width:950px; margin:150px">
+
+       
        <form runat="server">
 
-<%--           <asp:Label ID="lblemail" runat="server" Text="Email"></asp:Label>--%>
-           <div class="form-floating mb-3">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
-            <label for="floatingInput">Email address</label>
-            </div>
 
-<%--           <asp:TextBox ID="txtemail" runat="server" placeholder="Enter Email"></asp:TextBox>--%>
+           <asp:TextBox ID="txtemail" runat="server" placeholder="Enter Email" Width="900px" Height="50px" ></asp:TextBox>
 
-<%--           <asp:Label ID="lblpassword" runat="server" Text="Password"></asp:Label>--%>
-           <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
-            <label for="floatingPassword">Password</label>
-        </div>
-<%--           <asp:TextBox ID="txtpassword" runat="server" placeholder="********"></asp:TextBox>--%>
-
-               <br />
+           <br />
+           <br />
+           <br />
+           <asp:TextBox ID="txtpassword" runat="server" placeholder="********" Width="900px" Height="50px"></asp:TextBox>
+           <br />
+           <br />
+           <br />
+           <br />
 
                <asp:Button ID="btnsubmit"  class="btn btn-success" runat="server" Text="Sign In" />
-               <br />
+           <br />
            <br />
                <asp:Button ID="btnpassword"  class="btn btn-dark" runat="server" Text="Forgot Password" />
 
