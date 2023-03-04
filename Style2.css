@@ -1,9 +1,14 @@
 ﻿body {
     margin: 0;
-    padding: 0;
+    padding:0;
     background-image: url('images/im.jpg');
     background-size: cover;
     font-family: sans-serif;
+}
+
+.information {
+    margin: 1.5rem 0;
+    border-spacing: 5px 10px;
 }
 
 .loginbox {
