@@ -20,20 +20,21 @@
            <br />
            <br />
 
-           <asp:TextBox ID="txtemail" runat="server" placeholder="Enter Email" Width="900px" Height="50px"></asp:TextBox>
+           <asp:TextBox ID="txtUserName" runat="server" placeholder="Enter Email" Width="900px" Height="50px" Wrap="False"></asp:TextBox>
 
            <br />
            <br />
-           <asp:TextBox ID="txtpassword" runat="server" placeholder="********" Width="900px" Height="50px"></asp:TextBox>
+           <asp:TextBox ID="txtPassword" runat="server" placeholder="********" Width="900px" Height="50px"></asp:TextBox>
 
                <br />
            <br />
            <br />
 
-               <asp:Button ID="btnsubmit"  class="btn btn-success" runat="server" Text="Sign In" Height="37px" Width="218px" />
+               <asp:Button ID="btnSignIn" OnClick="btnSignIn_Click"  class="btn btn-success" runat="server" Text="Sign In" Height="37px" Width="218px" />
                <br />
            <br />
-               <asp:Button ID="btnpassword"  class="btn btn-dark" runat="server" Text="Forgot Password" />
+               <asp:Button ID="btnForgetPassword" OnClick="btnForgetPassword_Click" class="btn btn-dark" runat="server" Text="Forgot Password" />
+                <p><asp:Label ID="lblMessage" runat="server"></asp:Label></p>
 
             &nbsp;&nbsp;&nbsp;
 

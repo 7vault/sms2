@@ -51,13 +51,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label lblPrenom;
 
         /// <summary>
-        /// TextPrenom control.
+        /// txtPrenom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextPrenom;
+        protected global::System.Web.UI.WebControls.TextBox txtPrenom;
 
         /// <summary>
         /// email control.
@@ -69,13 +69,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label email;
 
         /// <summary>
-        /// TextEmail control.
+        /// txtEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
         /// <summary>
         /// lblDate control.
@@ -105,13 +105,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label lblDiscipline;
 
         /// <summary>
-        /// TextDiscipline control.
+        /// txtDiscipline control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextDiscipline;
+        protected global::System.Web.UI.WebControls.TextBox txtDiscipline;
 
         /// <summary>
         /// lblAdress control.
@@ -123,13 +123,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label lblAdress;
 
         /// <summary>
-        /// TextAdress control.
+        /// txtAdress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextAdress;
+        protected global::System.Web.UI.WebControls.TextBox txtAdress;
 
         /// <summary>
         /// pays control.
@@ -141,13 +141,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label pays;
 
         /// <summary>
-        /// Textpays control.
+        /// txtNationalite control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textpays;
+        protected global::System.Web.UI.WebControls.TextBox txtNationalite;
 
         /// <summary>
         /// LabelSexe control.
@@ -177,13 +177,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label EtudiantID;
 
         /// <summary>
-        /// TextID control.
+        /// txtID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextID;
+        protected global::System.Web.UI.WebControls.TextBox txtID;
 
         /// <summary>
         /// Labeldate control.
@@ -195,13 +195,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label Labeldate;
 
         /// <summary>
-        /// Textedate control.
+        /// txtDateCree control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textedate;
+        protected global::System.Web.UI.WebControls.TextBox txtDateCree;
 
         /// <summary>
         /// GridView1 control.
