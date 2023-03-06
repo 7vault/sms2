@@ -24,86 +24,83 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+         
+
         <div class="auto-style1">
             <p class="auto-style2">
             <br class="auto-style3" />
-            <asp:Label ID="lblNom" runat="server" Text="Nom"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="txtNom" runat="server" ></asp:TextBox>
+                     <form>
+  <div class="row" style="height:30px; width: 700px">
+    <div class="col">
+      <input id="txtNom" type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input id="txtPrenom" type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+</form>
+                <br />
+                <br />
+           
 
-
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-            <asp:Label ID="lblPrenom" runat="server" Text="Prenom"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextPrenom" runat="server" ></asp:TextBox>
-
-            
+                     <form>
+  <div class="row" style="height:30px; width: 700px">
+    <div class="col">
+      <input id="txtEmail" type="text" class="form-control" placeholder=" Email">
+    </div>
+    <div class="col">
+      <input id="txtDDN" type="text" class="form-control" placeholder="DDN">
+    </div>
+  </div>
+</form>
+                
             <br />
             <br />
             <br />
 
-             <asp:Label ID="email" runat="server" Text="Email"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox  ID="TextEmail" runat="server" ></asp:TextBox>
-
-
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-            <asp:Label ID="lblDate" runat="server" Text="DDN"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextDate" runat="server" ></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <form>
+  <div class="row" style="height:30px; width: 700px">
+    <div class="col">
+      <input id="txtDisc" type="text" class="form-control" placeholder=" Discipline">
+    </div>
+    <div class="col">
+      <input id="txtAdress" type="text" class="form-control" placeholder="Adress">
+    </div>
+  </div>
+</form>
+                
             <br />
             <br />
             <br />
-            
-            <asp:Label ID="lblDiscipline" runat="server" Text="Discipline"></asp:Label>
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextDiscipline" runat="server" ></asp:TextBox>
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="lblAdress" runat="server" Text="Adress"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextAdress" runat="server" ></asp:TextBox>
 
+                    <form>
+  <div class="row" style="height:30px; width: 700px">
+    <div class="col">
+      <input id="txtPays" type="text" class="form-control" placeholder=" Country">
+    </div>
+    <div class="col">
+      <input id="txtSexe" type="text" class="form-control" placeholder="Sex">
+    </div>
+  </div>
+</form>
              <br />
             <br />
             <br />
-
-             <asp:Label ID="pays" runat="server" Text="Pays"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="Textpays" runat="server" ></asp:TextBox>
-
-            
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-            <asp:Label ID="LabelSexe" runat="server" Text="Sexe"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextSexe" runat="server" ></asp:TextBox>
-
+        <form>
+  <div class="row" style="height:30px; width: 700px">
+    <div class="col">
+      <input id="txtID" type="text" class="form-control" placeholder=" ID">
+    </div>
+    <div class="col">
+      <input id="txtDate" type="text" class="form-control" placeholder="Date">
+    </div>
+  </div>
+</form>
             <br />
             <br />
             <br />
 
-            
-            <asp:Label ID="EtudiantID" runat="server" Text="ID"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextID" runat="server" ></asp:TextBox>
-
-
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-            <asp:Label ID="Labeldate" runat="server" Text="Date"></asp:Label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="Textedate" runat="server" ></asp:TextBox>
-
-            <br />
-            <br />
-            <br />
-            <br />
             <button type="button" class="btn btn-outline-success" style="margin-left:50px">Save </button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 

@@ -17,22 +17,22 @@
     <div style="text-align:center ; margin-top:10px">
         <h2>Log In Here</h2>
     </div>
-   <div class="container"  style="border:3px solid blue;height:400px; width:400px; margin:120px  ;align-content:center">
+   <div class="container"  style="border:3px solid blue;height:400px; width:600px; margin-top:40px ">
 
        
        
        <form runat="server">
 
-           <div class="mb-3">
-                <label for="lblEmail" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"/>
+           <div class="mb-3" style="width: 500px">
+                <label for="lblUsername" class="form-label"></label>
+                <input type="username" class="form-control" id="Email1" placeholder="UserName" aria-describedby="emailHelp"/>
         </div>
 
 <%--           <asp:TextBox ID="txtemail" runat="server" placeholder="Enter Email" Width="900px" Height="50px"></asp:TextBox>--%>
 
-         <div class="mb-3">
-            <label for="lblPassword" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1"/>
+         <div class="mb-3" style="width: 500px">
+            <label for="lblPassword" class="form-label"></label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
         </div>
 <%--           <asp:TextBox ID="txtpassword" runat="server" placeholder="********" Width="900px" Height="50px"></asp:TextBox>--%>
                
@@ -40,11 +40,11 @@
            <br />
            <br />
 
-           <div style="align-content:center">
-               <asp:Button ID="btnSignUp"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="218px" />
+           <div class="bouton" style="align-content:center">
+               <asp:Button ID="btnSignUp"  class="btn btn-primary" runat="server" Text="Sign In" Height="37px" Width="150px" />
                <br />
            <br />
-               <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" Height="37px" Width="218px" S />
+               <asp:Button ID="btnpassword"  class="btn btn-secondary" runat="server" Text="Forgot Password" Height="37px" Width="150px"  />
 
             &nbsp;&nbsp;&nbsp;
            </div>
