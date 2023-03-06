@@ -47,10 +47,10 @@
                      <form>
   <div class="row" style="height:30px; width: 700px">
     <div class="col">
-      <input id="txtEmail" type="text" class="form-control" placeholder=" Email">
+      <input id="txtID" type="text" class="form-control" placeholder=" ID">
     </div>
     <div class="col">
-      <input id="txtDDN" type="text" class="form-control" placeholder="DDN">
+      <input id="txtDDN" type="text" class="form-control" placeholder="Brithday">
     </div>
   </div>
 </form>
@@ -80,7 +80,7 @@
       <input id="txtPays" type="text" class="form-control" placeholder=" Country">
     </div>
     <div class="col">
-      <input id="txtSexe" type="text" class="form-control" placeholder="Sex">
+      <input id="txtDate" type="text" class="form-control" placeholder="Date">
     </div>
   </div>
 </form>
@@ -90,11 +90,16 @@
         <form>
   <div class="row" style="height:30px; width: 700px">
     <div class="col">
-      <input id="txtID" type="text" class="form-control" placeholder=" ID">
+        <input id="txtEmail" type="text" class="form-control" placeholder=" Email">
     </div>
-    <div class="col">
-      <input id="txtDate" type="text" class="form-control" placeholder="Date">
-    </div>
+    <div class="col-md-6">
+    <select id="inputState" class="form-select">
+      <option selected>Sex...</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>None</option>
+    </select>
+  </div>
   </div>
 </form>
             <br />
