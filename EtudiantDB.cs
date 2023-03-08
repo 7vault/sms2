@@ -37,15 +37,15 @@ namespace sms2
         public static void insertData(SqlConnection connection, Etudiant etudiant)
         {
             // Update command
-            string insertPersonne = "INSERT INTO Etudiants (nom, prenom, ddn, adresse," +
-                                     " email,telephone,discipline ,nationalite,sexe,datecree) VALUES (@nom, @Prenom, @ddn," +
+            string insertPersonne = "INSERT INTO Etudiants (nom, prenom, adresse," +
+                                     " email,telephone,discipline ,nationalite,sexe,datecree) VALUES (@nom, @Prenom," +
                                      "@adresse, @email, @telephone, @discipline, @nationalite, @sexe,  @datecree);";
 
             //Initiate command
             SqlCommand command = new SqlCommand(insertPersonne, connection);
             command.Parameters.AddWithValue("@nom", etudiant.Nom);
             command.Parameters.AddWithValue("@prenom", etudiant.Prenom);
-            command.Parameters.AddWithValue("@ddn", etudiant.DDN);
+            //command.Parameters.AddWithValue("@ddn", etudiant.DDN);
             command.Parameters.AddWithValue("@adresse", etudiant.Adresse);
             command.Parameters.AddWithValue("@email", etudiant.Email);
             command.Parameters.AddWithValue("@telephone", etudiant.Telephone);

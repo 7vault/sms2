@@ -8,14 +8,14 @@ namespace sms2
     public class Etudiant
     {
 
-        private String _nom; String _prenom; String _ddN; String _nationalite; String _sexe; String _adresse; String email; String _telephone; String _discipline; String _etudiant_ID; String _dateCree;
+        private String _nom, _prenom, _nationalite, _sexe,  _adresse, email,  _telephone, _discipline, _dateCree;
 
 
-        public Etudiant(string Nom, String Prenom, String DDN, String Nationalite, String Sexe, String Adresse, String Email, String Telephone, String Discipline, String DateCree)
+        public Etudiant(string Nom, string Prenom, string Nationalite, string Sexe, string Adresse, string Email, string Telephone, string Discipline, string DateCree)
         {
             this.Nom = Nom;
             this.Prenom = Prenom;
-            this.DDN = DDN;
+            //this.DDN = DDN;
             this.Nationalite = Nationalite;
             this.Sexe = Sexe;
             this.Adresse = Adresse;
@@ -42,11 +42,11 @@ namespace sms2
             set => _prenom = value.First().ToString().ToUpper() + value.Substring(1);
 
         }
-        public string DDN
-        {
-            get => DDN;
-            set => DDN = value;
-        }
+        //public string DDN
+        //{
+        //    get => DDN;
+        //    set => DDN = value;
+        //}
 
 
         public string Nationalite
