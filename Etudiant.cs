@@ -11,7 +11,7 @@ namespace sms2
         private String _nom; String _prenom; String _ddN; String _nationalite; String _sexe; String _adresse; String email; String _telephone; String _discipline; String _etudiant_ID; String _dateCree;
 
 
-        public Etudiant(string Nom, String Prenom, String DDN, String Nationalite, String Sexe, String Adresse, String Email, String Telephone, String Discipline, String Etudiant_ID, String DateCree)
+        public Etudiant(string Nom, String Prenom, String DDN, String Nationalite, String Sexe, String Adresse, String Email, String Telephone, String Discipline, String DateCree)
         {
             this.Nom = Nom;
             this.Prenom = Prenom;
@@ -22,7 +22,7 @@ namespace sms2
             this.Email = Email;
             this.Telephone = Telephone;
             this.Discipline = Discipline;
-            this.Etudiant_ID = Etudiant_ID;
+          
             this.DateCree = DateCree;
 
 

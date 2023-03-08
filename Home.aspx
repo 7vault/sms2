@@ -54,7 +54,7 @@
 
             <asp:Label ID="lblDate" runat="server" Text="DDN"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextDate" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="txtDdn" runat="server" ></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <br />
@@ -71,7 +71,7 @@
             <br />
             <br />
 
-             <asp:Label ID="pays" runat="server" Text="Nationalite"></asp:Label>
+             <asp:Label ID="nationalite" runat="server" Text="Nationalite"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtNationalite" runat="server" ></asp:TextBox>
 
@@ -81,7 +81,11 @@
 
             <asp:Label ID="LabelSexe" runat="server" Text="Sexe"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextSexe" runat="server" ></asp:TextBox>
+            <asp:TextBox ID="txtSexe" runat="server" ></asp:TextBox>
+
+            <asp:Label ID="Telephone" runat="server" Text="Telephone"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txtTelephone" runat="server" ></asp:TextBox>
 
             <br />
             <br />
@@ -104,11 +108,11 @@
             <br />
             <br />
             <br />
-            <button type="button" class="btn btn-outline-success" style="margin-left:50px" id="btnSave">Save</button>
+            <asp:Button type="button" class="btn btn-outline-success" style="margin-left:50px" id="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" ></asp:Button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button type="button" class="btn btn-outline-success" id="btnUpdate">Update</button>
+            <asp:Button type="button" class="btn btn-outline-success" id="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click"  ></asp:Button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button type="button" class="btn btn-outline-danger" id="btnDelete">Delete</button>
+            <asp:Button type="button" class="btn btn-outline-danger" id="btnDelete" runat="server" Text="Delete" OnClick="btnDelete_Click" ></asp:Button>
 
            <br />
            <br />

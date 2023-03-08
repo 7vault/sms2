@@ -87,13 +87,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label lblDate;
 
         /// <summary>
-        /// TextDate control.
+        /// txtDdn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextDate;
+        protected global::System.Web.UI.WebControls.TextBox txtDdn;
 
         /// <summary>
         /// lblDiscipline control.
@@ -132,13 +132,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.TextBox txtAdress;
 
         /// <summary>
-        /// pays control.
+        /// nationalite control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label pays;
+        protected global::System.Web.UI.WebControls.Label nationalite;
 
         /// <summary>
         /// txtNationalite control.
@@ -159,13 +159,31 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label LabelSexe;
 
         /// <summary>
-        /// TextSexe control.
+        /// txtSexe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextSexe;
+        protected global::System.Web.UI.WebControls.TextBox txtSexe;
+
+        /// <summary>
+        /// Telephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Telephone;
+
+        /// <summary>
+        /// txtTelephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTelephone;
 
         /// <summary>
         /// EtudiantID control.
@@ -202,6 +220,33 @@ namespace sms2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDateCree;
+
+        /// <summary>
+        /// btnSave control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSave;
+
+        /// <summary>
+        /// btnUpdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUpdate;
+
+        /// <summary>
+        /// btnDelete control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDelete;
 
         /// <summary>
         /// GridView1 control.

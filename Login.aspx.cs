@@ -1,5 +1,4 @@
-﻿using MaxMind.Db;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
@@ -55,7 +54,7 @@ namespace sms2
 
 
             }
-            if (UserType == "Admin")
+            if (UserType == "admin")
             {
                 Response.Redirect("Home.aspx");
             }
