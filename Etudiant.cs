@@ -8,14 +8,14 @@ namespace sms2
     public class Etudiant
     {
 
-        private String _nom, _prenom, _nationalite, _sexe,  _adresse, email,  _telephone, _discipline, _dateCree;
+        private String _nom, _prenom,_ddn, _nationalite, _sexe,  _adresse, _email,  _telephone, _discipline, _dateCree;
 
 
-        public Etudiant(string Nom, string Prenom, string Nationalite, string Sexe, string Adresse, string Email, string Telephone, string Discipline, string DateCree)
+        public Etudiant(string Nom, string Prenom, string DDN,string Nationalite, string Sexe, string Adresse, string Email, string Telephone, string Discipline, string DateCree)
         {
             this.Nom = Nom;
             this.Prenom = Prenom;
-            //this.DDN = DDN;
+            this.DDN = DDN;
             this.Nationalite = Nationalite;
             this.Sexe = Sexe;
             this.Adresse = Adresse;
@@ -42,11 +42,11 @@ namespace sms2
             set => _prenom = value.First().ToString().ToUpper() + value.Substring(1);
 
         }
-        //public string DDN
-        //{
-        //    get => DDN;
-        //    set => DDN = value;
-        //}
+        public string DDN
+        {
+            get => _ddn;
+            set => _ddn = value;
+        }
 
 
         public string Nationalite
@@ -58,8 +58,8 @@ namespace sms2
 
         public string Sexe
         {
-            get => Sexe;
-            set => Sexe = value;
+            get => _sexe;
+            set => _sexe = value;
         }
 
         public string Adresse
@@ -70,8 +70,8 @@ namespace sms2
 
         public string Email
         {
-            get => Email;
-            set => Email = value;
+            get => _email;
+            set => _email = value;
         }
 
         public string Telephone
@@ -82,8 +82,8 @@ namespace sms2
 
         public string Discipline
         {
-            get => Discipline;
-            set => Discipline = value.First().ToString().ToUpper() + value.Substring(1);
+            get => _discipline;
+            set => _discipline = value.First().ToString().ToUpper() + value.Substring(1);
         }
         public string Etudiant_ID
         {

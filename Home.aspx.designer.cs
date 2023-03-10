@@ -168,24 +168,6 @@ namespace sms2
         protected global::System.Web.UI.WebControls.TextBox txtSexe;
 
         /// <summary>
-        /// Telephone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Telephone;
-
-        /// <summary>
-        /// txtTelephone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTelephone;
-
-        /// <summary>
         /// EtudiantID control.
         /// </summary>
         /// <remarks>
@@ -220,6 +202,24 @@ namespace sms2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDateCree;
+
+        /// <summary>
+        /// Telephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Telephone;
+
+        /// <summary>
+        /// txtTelephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTelephone;
 
         /// <summary>
         /// btnSave control.
