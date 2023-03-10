@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="sms2.About" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StudentView.aspx.cs" Inherits="sms2.StudentView" %>
 
 <!DOCTYPE html>
 
@@ -8,10 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
-
         <div>
-
         </div>
     </form>
 </body>

@@ -15,12 +15,17 @@ namespace sms2
     {
 
         /// <summary>
+
         /// txtUserName control.
+
+        /// btnSignUp control.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+
         protected global::System.Web.UI.WebControls.TextBox txtUserName;
 
         /// <summary>
@@ -40,6 +45,9 @@ namespace sms2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSignIn;
+
+        protected global::System.Web.UI.WebControls.Button btnSignUp;
+
 
         /// <summary>
         /// btnForgetPassword control.

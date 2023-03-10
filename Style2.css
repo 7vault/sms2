@@ -1,9 +1,6 @@
-﻿body {
-    margin: 0;
-    padding: 0;
-    background-image: url('images/im.jpg');
-    background-size: cover;
-    font-family: sans-serif;
+﻿.information {
+    margin: 1.5rem 0;
+    border-spacing: 5px 10px;
 }
 
 .loginbox {
@@ -43,4 +40,103 @@ h2 {
 .txtemail, txtpassword, btnsubmit {
     width: 100%;
     margin-bottom: 20px;
+}
+.auto-style7 {
+    height: 22px;
+    width: 399px;
+}
+
+.auto-style8 {
+    width: 399px;
+}
+
+.auto-style9 {
+    height: 22px;
+    width: 19px;
+}
+
+.auto-style10 {
+    width: 19px;
+}
+
+.auto-style11 {
+    width: 19px;
+}
+
+#btnAdd {
+    position: absolute;
+    width: 172px;
+    height: 50px;
+    left: 20px;
+    top: 190px;
+    background: #166393;
+    border-radius: 30px;
+}
+
+#btnDelete {
+    position: absolute;
+    width: 172px;
+    height: 50px;
+    left: 20px;
+    top: 401px;
+    background: #166393;
+    border-radius: 30px;
+}
+
+#btnModify {
+    position: absolute;
+    width: 172px;
+    height: 50px;
+    left: 20px;
+    top: 573px;
+    background: #166393;
+    border-radius: 30px;
+}
+
+#lbstudent {
+    position: absolute;
+    width: 693px;
+    height: 174px;
+    left: 247px;
+    top: 115px;
+    background: #D9A38F;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    color: #1E1E1E;
+}
+
+#gvStudent {
+    position: absolute;
+    width: 786px;
+    height: 419px;
+    left: 227px;
+    top: 400px;
+}
+
+#search {
+    position: absolute;
+    width: 450px;
+    height: 43px;
+    left: 960px;
+    top: 115px;
+    background: #ECF0F3;
+    border-radius: 30px;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0px;
+    margin-top: 120px;
+    margin-left: 15px;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
 }
