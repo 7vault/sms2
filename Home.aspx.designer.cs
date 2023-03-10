@@ -15,139 +15,171 @@ namespace sms2
     {
 
         /// <summary>
-        /// form1 control.
+        /// form2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
 
         /// <summary>
-        /// lblnom control.
+        /// btnAdd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblnom;
+        protected global::System.Web.UI.WebControls.Button btnAdd;
 
         /// <summary>
-        /// txtnom control.
+        /// ModalPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtnom;
+        protected global::System.Web.UI.WebControls.Panel ModalPanel;
 
         /// <summary>
-        /// lblprenom control.
+        /// btnSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblprenom;
+        protected global::System.Web.UI.WebControls.Button btnSave;
 
         /// <summary>
-        /// Textprenom control.
+
+        /// txtPrenom control.
+
+        /// btnCancel control.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textprenom;
+
+        protected global::System.Web.UI.WebControls.TextBox txtPrenom;
+
+        protected global::System.Web.UI.WebControls.Button btnCancel;
+
 
         /// <summary>
-        /// email control.
+        /// mpe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label email;
+        protected global::AjaxControlToolkit.ModalPopupExtender mpe;
 
         /// <summary>
-        /// Textemail control.
+
+        /// txtEmail control.
+
+        /// asm control.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textemail;
+
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+
+        protected global::System.Web.UI.ScriptManager asm;
+
 
         /// <summary>
-        /// date control.
+        /// lbstudent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label date;
+        protected global::System.Web.UI.WebControls.Label lbstudent;
 
         /// <summary>
-        /// Textdate control.
+
+        /// txtDdn control.
+
+        /// search control.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textdate;
+
+        protected global::System.Web.UI.WebControls.TextBox txtDdn;
+
+        protected global::System.Web.UI.WebControls.TextBox search;
 
         /// <summary>
-        /// discipline control.
+        /// btnDelete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label discipline;
+        protected global::System.Web.UI.WebControls.Button btnDelete;
 
         /// <summary>
-        /// Textdiscipline control.
+
+        /// txtDiscipline control.
+
+        /// gvStudent control.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textdiscipline;
+
+        protected global::System.Web.UI.WebControls.TextBox txtDiscipline;
+
+        protected global::System.Web.UI.WebControls.GridView gvStudent;
+
 
         /// <summary>
-        /// adress control.
+        /// btnModify control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label adress;
+
+        protected global::System.Web.UI.WebControls.Label lblAdress;
 
         /// <summary>
-        /// Textadress control.
+        /// txtAdress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textadress;
+        protected global::System.Web.UI.WebControls.TextBox txtAdress;
 
         /// <summary>
-        /// pays control.
+        /// nationalite control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label pays;
+        protected global::System.Web.UI.WebControls.Label nationalite;
 
         /// <summary>
-        /// Textpays control.
+        /// txtNationalite control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textpays;
+        protected global::System.Web.UI.WebControls.TextBox txtNationalite;
 
         /// <summary>
         /// LabelSexe control.
@@ -159,13 +191,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label LabelSexe;
 
         /// <summary>
-        /// TextSexe control.
+        /// txtSexe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextSexe;
+        protected global::System.Web.UI.WebControls.TextBox txtSexe;
 
         /// <summary>
         /// EtudiantID control.
@@ -177,13 +209,13 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label EtudiantID;
 
         /// <summary>
-        /// TextID control.
+        /// txtID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextID;
+        protected global::System.Web.UI.WebControls.TextBox txtID;
 
         /// <summary>
         /// Labeldate control.
@@ -195,13 +227,58 @@ namespace sms2
         protected global::System.Web.UI.WebControls.Label Labeldate;
 
         /// <summary>
-        /// Textedate control.
+        /// txtDateCree control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textedate;
+        protected global::System.Web.UI.WebControls.TextBox txtDateCree;
+
+        /// <summary>
+        /// Telephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Telephone;
+
+        /// <summary>
+        /// txtTelephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTelephone;
+
+        /// <summary>
+        /// btnSave control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSave;
+
+        /// <summary>
+        /// btnUpdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUpdate;
+
+        /// <summary>
+        /// btnDelete control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDelete;
 
         /// <summary>
         /// GridView1 control.
@@ -211,5 +288,8 @@ namespace sms2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView1;
+
+        protected global::System.Web.UI.WebControls.Button btnModify;
+
     }
 }
